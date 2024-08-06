@@ -1,0 +1,66 @@
+.header {
+  border-bottom: 2px solid var(--grey3);
+  padding: 1rem 0;
+}
+
+.containerHeader {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .containerHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.containerSearchNav{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+  color: var(--orange);
+  font-size: 4rem;
+  line-height: 0;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  margin-right: 2rem;
+}
+
+.containerButtons {
+  display: flex;
+  align-items: center;
+}
+
+.userGreetings {
+  margin-right: 2rem;
+}
+
+.button {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid #d1d1d1;
+  padding: 0.8rem 2rem;
+  margin-right: 1rem;
+}
+
+.button:last-of-type {
+  margin-right: 0;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.buttonDark {
+  color: white;
+  background-color: #da552f;
+}
+
+.buttonLight {
+  color: #000;
+  background-color: white;
+}
